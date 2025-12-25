@@ -1,0 +1,9 @@
+[package]
+name = "nft_visual_ownership"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+nft_visual_ownership = "0x0"
